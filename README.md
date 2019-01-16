@@ -1,7 +1,7 @@
 Install
 =======
 
-======= > go get github.com/baboonwu/sqlsnoop
+> go get github.com/baboonwu/sqlsnoop
 
 Run
 ===
