@@ -12,7 +12,6 @@ import (
 func init() {
 	log.SetFlags(log.Lshortfile | log.LstdFlags)
 	sql.Register("mysql:proxy", proxy.NewProxyContext(&mysql.MySQLDriver{}, NewHook()))
-	log.Println("Drivers:", sql.Drivers())
 }
 
 func TestQueryMysql(t *testing.T) {
